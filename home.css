@@ -25,3 +25,17 @@ nav li{display:inline; margin:20px;}
 nav li:hover{opacity:1}
 
 nav a {text-decoration: none; color:green; display:inline-block;}
+
+/*Header styling ends here*/
+
+main{margin-top:50px;}
+
+#first-line{ margin:auto; display: flex; justify-content: center;}
+
+#your-currency-btn{border-radius:10px; border-color: rgb(65, 1, 96);;
+    padding-left:10px; padding-right:10px;
+    background-color: rgba(105, 103, 103, 0.643); color:green;}
+
+#convert-currency-btn{border-radius:10px; border-color: rgb(65, 1, 96);;
+    padding-left:10px; padding-right:10px;
+    background-color: rgba(105, 103, 103, 0.643); color:green;}
