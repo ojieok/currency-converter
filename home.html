@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel = 'stylesheet' href = 'home.css'>
+    <link rel="stylesheet" href="home.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
     <header>
-        <div id = 'left-side'>
-            <h1> <a href = 'home.html'> CURRENCIES </a> </h1>
+        <div id="left-side">
+            <h1><a href="home.html">CURRENCIES</a></h1>
         </div>
-
-        <div id = 'right-side'>
-        <nav>
-            <li> <button class = 'nav-btn'> <h2> <a href = 'convert.html' > CONVERT CURRENCIES </a> </h2> </button> </li>
-            <li> <button class = 'nav-btn'> <h2> <a href = 'about.html' > ABOUT </a> </h2> </button> </li>
-        </nav>
+        <div id="right-side">
+            <nav>
+                <li><button class="nav-btn"><h2><a href="convert.html">CONVERT CURRENCIES</a></h2></button></li>
+                <li><button class="nav-btn"><h2><a href="about.html">ABOUT</a></h2></button></li>
+            </nav>
         </div>
-
     </header>
-
     <main>
-        <div id = 'first-line'>
-            <button id = 'your-currency-btn'> <h3> Choose Your Currency </h3> </button>
-            <p id = 'exchange-rate'>  Exchange rate will be printed here </p>
-            <button id = 'convert-currency-btn'> <h3> Choose Convert Currency </h3> </button>
+        <div id="first-line">
+            <button class="nav-btn"><h1>TOP 6 CURRENCIES</h1></button>
         </div>
-        <div class ="chart-container-wrapper">   
-            <div id="eurChartContainer" class="chart-container"></div>
-            <div id="gbpChartContainer" class="chart-container"></div>
-            <div id="jpyChartContainer" class="chart-container"></div>
-            <div id="cadChartContainer" class="chart-container"></div>
-            <div id="audChartContainer" class="chart-container"></div>
-            <div id="chfChartContainer" class="chart-container"></div>
-        </div> 
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><div id="eurChartContainer" class="chart-container"></div></div>
+                <div class="swiper-slide"><div id="gbpChartContainer" class="chart-container"></div></div>
+                <div class="swiper-slide"><div id="jpyChartContainer" class="chart-container"></div></div>
+                <div class="swiper-slide"><div id="cadChartContainer" class="chart-container"></div></div>
+                <div class="swiper-slide"><div id="audChartContainer" class="chart-container"></div></div>
+                <div class="swiper-slide"><div id="chfChartContainer" class="chart-container"></div></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div id="last-line">
+            <button class="nav-btn"><h2><a href="convert.html">CONVERT CURRENCIES</a></h2></button>
+        </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="home.js"></script>
 </body>
 </html>
