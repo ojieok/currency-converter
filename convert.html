@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Convert Currencies </title>
     <link rel = 'stylesheet' href = 'home.css'>
+    <script src="convert.js" defer></script>
 </head>
 <body>
     <header>
@@ -23,9 +24,20 @@
 
     <main>
         <div id = 'first-line'>
-            <button id = 'your-currency-btn'> <h3> Choose Your Currency </h3> </button>
-            <p id = 'exchange-rate'>  Exchange rate will be printed here </p>
-            <button id = 'convert-currency-btn'> <h3> Choose Convert Currency </h3> </button>
+
+            <form name='currencyExchanger' onsubmit="convertCurrency();return false" method="get">
+                <label for='currencyExchanger'> <h3> Choose Your Currency</h3> </label>
+                <select id = 'yourCurrencyBtn'></select>
+                <input type="text" id="yourAmt">
+
+                <p id = 'exchange-rate'> Exchange rate will be printed here</p>
+
+                <label for='currencyExchanger'> <h3> Choose Convert Currency </h3> </label>
+                <select id= 'convertCurrencyBtn'> <h3> Choose Convert Currency </h3> </select>
+
+                <br>
+                <input type="submit" id="exchangerSubmit" value="Convert">
+            </form>
         </div>
     </main>
     
