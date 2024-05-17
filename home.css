@@ -39,3 +39,13 @@ main{margin-top:50px;}
 #convert-currency-btn{border-radius:10px; border-color: rgb(65, 1, 96);;
     padding-left:10px; padding-right:10px;
     background-color: rgba(105, 103, 103, 0.643); color:green;}
+
+.chart-container {
+    width: 45%; 
+    background-color: white; 
+    margin-top: 20px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    float: right;
+    clear: both;}
+    
