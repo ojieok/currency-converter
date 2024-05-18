@@ -25,3 +25,6 @@ nav li{display:inline; margin:20px;}
 nav li:hover{opacity:1}
 
 nav a {text-decoration: none; color:green; display:inline-block;}
+
+.about-box {background-color:blanchedalmond; padding: 10px; 
+    border: 1px solid black;border-radius: 10px;}
