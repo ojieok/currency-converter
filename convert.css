@@ -46,7 +46,7 @@ main{margin-top:50px; margin-left:50px; margin-right:50px; display:flex;}
 
 #yourAmt{height:30px; text-align:center; margin:0 auto; margin-bottom:20px;}
 
-#exchange-rate{margin-bottom:40px;}
+#exchange-rate{margin-bottom:40px;  text-transform: uppercase;}
 
 #convertCurrencyBtn{border-radius:10px; border-color: rgb(65, 1, 96);;
     padding-left:10px; padding-right:10px; 

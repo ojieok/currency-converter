@@ -28,7 +28,8 @@
             <form name='currencyExchanger' onsubmit="convertCurrency();return false" method="get" id = 'currencyForm'>
                 <label for='currencyExchanger'> <h2>Your Currency:</h2> </label>
                 <select id = 'yourCurrencyBtn' class = 'currency-label'></select><br>
-                <input type="text" id="yourAmt" placeholder="Numbers Only">
+                <br>
+                <input type="text" id="yourAmt" placeholder="Numbers Only" required>
 
                 <p id = 'exchange-rate'> Exchange rate will be printed here</p>
 
