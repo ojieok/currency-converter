@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Convert Currencies </title>
-    <link rel = 'stylesheet' href = 'home.css'>
+    <link rel = 'stylesheet' href = 'convert.css'>
     <script src="convert.js" defer></script>
 </head>
 <body>
@@ -23,21 +23,22 @@
     </header>
 
     <main>
-        <div id = 'first-line'>
+        <div id = 'convert-div'>
 
-            <form name='currencyExchanger' onsubmit="convertCurrency();return false" method="get">
-                <label for='currencyExchanger'> <h3> Choose Your Currency</h3> </label>
-                <select id = 'yourCurrencyBtn'></select>
-                <input type="text" id="yourAmt">
+            <form name='currencyExchanger' onsubmit="convertCurrency();return false" method="get" id = 'currencyForm'>
+                <label for='currencyExchanger'> <h2>Your Currency:</h2> </label>
+                <select id = 'yourCurrencyBtn' class = 'currency-label'></select><br>
+                <input type="text" id="yourAmt" placeholder="Numbers Only">
 
                 <p id = 'exchange-rate'> Exchange rate will be printed here</p>
 
-                <label for='currencyExchanger'> <h3> Choose Convert Currency </h3> </label>
-                <select id= 'convertCurrencyBtn'> <h3> Choose Convert Currency </h3> </select>
+                <label for='currencyExchanger'> <h2> To Currency:</h2> </label>
+                <select id= 'convertCurrencyBtn' class = 'currency-label'> <h3> Choose Convert Currency </h3> </select>
 
                 <br>
-                <input type="submit" id="exchangerSubmit" value="Convert">
+                <input type="submit" id="exchangerSubmit" value="CONVERT">
             </form>
+            
         </div>
     </main>
     

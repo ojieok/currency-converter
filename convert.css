@@ -28,14 +28,33 @@ nav a {text-decoration: none; color:green; display:inline-block;}
 
 /*Header styling ends here*/
 
-main{margin-top:50px;}
+main{margin-top:50px; margin-left:50px; margin-right:50px; display:flex;}
 
-#first-line{ margin:auto; display: flex; justify-content: center; align-items: baseline;}
+#convert-div{margin:auto;}
+
+#currencyForm{margin:auto; width:100%}
+
+.currency-label{height:50px; width:300px; margin-bottom:5px;  
+    padding:5px; font-size:20px; text-align:center; 
+    border:none;}
 
 #yourCurrencyBtn{border-radius:10px; border-color: rgb(65, 1, 96);;
     padding-left:10px; padding-right:10px;
     background-color: rgba(105, 103, 103, 0.643); color:green;}
 
+#yourCurrencyBtn:hover{transform: scale(1.1); cursor:pointer;}
+
+#yourAmt{height:30px; text-align:center; margin:0 auto; margin-bottom:20px;}
+
+#exchange-rate{margin-bottom:40px;}
+
 #convertCurrencyBtn{border-radius:10px; border-color: rgb(65, 1, 96);;
-    padding-left:10px; padding-right:10px;
+    padding-left:10px; padding-right:10px; 
     background-color: rgba(105, 103, 103, 0.643); color:green;}
+
+#convertCurrencyBtn:hover{transform: scale(1.1); cursor:pointer;}
+
+#exchangerSubmit{height:50px; margin:0 auto;  border:none; border-radius:5px; text-align:center;
+                    padding:10px;
+                    background-color:green; color:white;}
+#exchangerSubmit:hover{background-color: rgb(53, 136, 53); cursor:pointer;}
