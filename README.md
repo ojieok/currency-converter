@@ -4,4 +4,4 @@
 
 ## Target Browsers: FireFox and Chrome
 
-## [Link to Developer Manual] (https://github.com/ojieok/currency-converter/blob/main/devmanul.md)
+[Link to Developer Manual](https://github.com/ojieok/currency-converter/blob/main/devmanul.md)
