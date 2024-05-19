@@ -4,4 +4,4 @@
 
 ## Target Browsers: FireFox and Chrome
 
-## Link to Developer Manual: devmanul.md
+## Link to Developer Manual
